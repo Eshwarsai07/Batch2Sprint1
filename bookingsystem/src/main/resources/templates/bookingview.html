@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Booking Page</title>
+</head>
+
+
+
+<body>
+	<form action="booked" method="post">
+		<label for="showName">Choose a Show:</label> <select name="showName"
+			id="showName">
+			<option value="LEA">Select a Show</option>
+			<option value="Morning">Morning</option>
+			<option value="Matinee">Matinee</option>
+			<option value="FirstShow">FirstShow</option>
+			<option value="SecondShow">SecondShow</option>
+
+		</select><br> <br> <label for="hallName">Choose a Hall:</label> <select
+			name="hallName" id="hallName">
+			<option value="LEADER1">Select a Hall</option>
+			<option value="70MM Hall">70MM Hall</option>
+			<option value="35MM Hall">35MM Hall</option>
+
+		</select><br> <br> <label for="movieName">Movie:</label> <select
+			name="movieName" id="movieName">
+			<option value="LEADER1">Select a movie</option>
+			<option value="LEADER">LEADER</option>
+
+		</select><br> <br> <label for="seatType">Seat Type</label> <select
+			name="seatType" id="seatType">
+			<option value="s1">Select a seat</option>
+			<option value="FirstClass">First Class</option>
+			<option value="Balcony">Balcony</option>
+
+		</select></br> <br> NumberOfSeats(max 10) : <input type="text"
+			name="numberOfSeats" required /> <br> <br>Please Enter
+		UserName(case sensitive):<input type="text" name="userName" required /><br>
+
+		<br> <input type="submit" name="submit">
+	</form>
+
+
+
+</body>
+</html>
